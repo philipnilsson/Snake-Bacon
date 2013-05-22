@@ -1,0 +1,32 @@
+
+body { 
+  font-family: sans-serif 
+}
+
+.cell {
+  display: inline-block;
+  border: 1px solid #f5f5f5;
+  width: 15px;
+  height: 15px;
+  background-color: #eeeeee;
+}
+
+.row {
+  height: 17px; 
+}
+
+.snake { 
+  background-color: green;
+  border: 1px solid green;
+}
+
+.apple {
+  background-color: red;
+  border: 1px solid red;
+}
+
+#log {
+  width: 337px;
+  height: 1.5em;
+  margin-top: 0.5em;
+}
