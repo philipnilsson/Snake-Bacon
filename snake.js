@@ -5,7 +5,7 @@ Function.prototype.bind=Function.prototype.bind||function(b){if(typeof this!=="f
 _ = Bacon._
 
 function bindInputs() {
-  var keys = $(document).asEventStream('keyup').map('.keyCode')
+  var keys = $(document).asEventStream('keydown').map('.keyCode')
   var lefts   = keys.filter(function(x) { return x === 37 })
   var rights  = keys.filter(function(x) { return x === 39 })
   var restart = keys.filter(function(x) { return x === 82 })
